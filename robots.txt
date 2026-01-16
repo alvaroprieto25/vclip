@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alvaroprieto25.github.io/vclip/sitemap.xml

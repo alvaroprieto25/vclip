@@ -44,7 +44,7 @@
         "email_label": "Email",
         "phone_label": "Teléfono",
         "whatsapp_label": "WhatsApp",
-        "whatsapp_btn": "Chat on WhatsApp",
+        "whatsapp_btn": "WhatsApp",
         "form_hint": "¿Prefieres que te contactemos nosotros?",
         "form_btn": "Solicitar información"
     },
@@ -56,5 +56,14 @@
     },
     "footer": {
         "copyright": "© 2026 V Clip. Todos los derechos reservados."
+    },
+    "seo": {
+        "title": "V Clip - Inserto Óptico para Enduro, Motocross y Ski",
+        "description": "Descubre V Clip, la solución definitiva de graduación para tus gafas deportivas. Olvídate de las lentillas y mejora tu rendimiento con visión perfecta.",
+        "og": {
+            "title": "V Clip - Visión Perfecta para Deportes Extremos",
+            "description": "El inserto óptico universal para tus gafas off-road. Instalación en segundos, campo de visión panorámico y sistema anti-vaho.",
+            "image": "assets/og-vclip.png"
+        }
     }
 }
