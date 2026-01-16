@@ -11,7 +11,7 @@ i18n
         fallbackLng: 'es',
         debug: true,
         backend: {
-            loadPath: '/assets/traductions/{{lng}}.json',
+            loadPath: import.meta.env.BASE_URL + 'assets/traductions/{{lng}}.json',
         },
         interpolation: {
             escapeValue: false, // not needed for react as it escapes by default
