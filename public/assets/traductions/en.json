@@ -1,0 +1,69 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About us",
+        "contact": "Contact",
+        "cta_header": "Get V Clip"
+    },
+    "hero": {
+        "badge": "Optical innovation for extreme sports",
+        "title_white": "Look at the limit,",
+        "title_blue": "not your contacts",
+        "description": "The definitive optical insert for Enduro, Motocross and Ski goggles. Perfect vision without compromises, designed for those who accept no limits.",
+        "cta_main": "Get V Clip",
+        "cta_sec": "Watch demo",
+        "scroll_hint": "360º ROTATION"
+    },
+    "features": {
+        "label": "Features",
+        "title": "Precision Engineering",
+        "subtitle": "Every detail designed to offer you the best visual experience in extreme sports.",
+        "items": {
+            "vision": {
+                "title": "Wide field of view",
+                "desc": "Panoramic design that maximizes your visual field without distortions. See everything you need, when you need it."
+            },
+            "antifog": {
+                "title": "Anti-fog System",
+                "desc": "Advanced ventilation technology that keeps your lenses crystal clear in the most extreme conditions."
+            },
+            "install": {
+                "title": "Install in seconds",
+                "desc": "Patented clip system that adapts to any goggle. No tools, no complications."
+            },
+            "comfort": {
+                "title": "Extreme Comfort",
+                "desc": "Ultralight at only 12g. Forget you're wearing it while you focus on your performance."
+            }
+        }
+    },
+    "contact": {
+        "label": "Contact",
+        "title": "Ready for the next level?",
+        "subtitle": "Contact us and discover how V Clip can transform your experience in extreme sports.",
+        "email_label": "Email",
+        "phone_label": "Phone",
+        "whatsapp_label": "WhatsApp",
+        "whatsapp_btn": "WhatsApp",
+        "form_hint": "Do you prefer us to contact you?",
+        "form_btn": "Request information"
+    },
+    "video": {
+        "heading": "Live the V Clip experience"
+    },
+    "reviews": {
+        "heading": "What the riders say"
+    },
+    "footer": {
+        "copyright": "© 2026 V Clip. All rights reserved."
+    },
+    "seo": {
+        "title": "V Clip - Optical Insert for Enduro, Motocross and Ski",
+        "description": "Discover V Clip, the definitive prescription solution for your sports goggles. Forget about contact lenses and improve your performance with perfect vision.",
+        "og": {
+            "title": "V Clip - Perfect Vision for Extreme Sports",
+            "description": "The universal optical insert for your off-road goggles. Install in seconds, panoramic field of view and anti-fog system.",
+            "image": "assets/og-vclip.png"
+        }
+    }
+}

@@ -20,11 +20,16 @@ const Video = () => {
 
                 <div className="aspect-video w-full max-w-5xl mx-auto rounded-xl border border-white/10 overflow-hidden shadow-2xl relative group">
                     {/* Placeholder for video content */}
-                    <div className="absolute inset-0 flex items-center justify-center bg-gray-900 group-hover:bg-gray-800 transition-colors cursor-pointer">
-                        <div className="w-20 h-20 rounded-full border-2 border-white/20 flex items-center justify-center group-hover:border-tech-blue group-hover:scale-110 transition-all">
-                            <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1 group-hover:border-l-tech-blue transition-colors" />
-                        </div>
-                    </div>
+                    <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/lo-Z_I6_vv8?si=xM29i-cBmuKD0HIR"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="absolute inset-0 w-full h-full object-cover"
+                    ></iframe>
                     {/* In a real app, <video> or <iframe> goes here */}
                 </div>
             </div>
