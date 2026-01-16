@@ -47,5 +47,14 @@
         "whatsapp_btn": "Chat on WhatsApp",
         "form_hint": "¿Prefieres que te contactemos nosotros?",
         "form_btn": "Solicitar información"
+    },
+    "video": {
+        "heading": "Vive la experiencia V Clip"
+    },
+    "reviews": {
+        "heading": "Lo que dicen los pilotos"
+    },
+    "footer": {
+        "copyright": "© 2026 V Clip. Todos los derechos reservados."
     }
 }
