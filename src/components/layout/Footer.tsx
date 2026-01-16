@@ -6,7 +6,7 @@ const Footer = () => {
                 <div className="flex gap-6 mt-4 md:mt-0">
                     <a href="#" className="hover:text-white transition-colors">Privacy</a>
                     <a href="#" className="hover:text-white transition-colors">Terms</a>
-                    <a href="#" className="hover:text-white transition-colors">Instagram</a>
+                    <a href="https://www.instagram.com/vclip2.0?igsh=ZzY5NnFxaTFyOWVn" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Instagram</a>
                 </div>
             </div>
         </footer>
