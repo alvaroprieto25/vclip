@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-tech-dark text-white font-body selection:bg-tech-blue selection:text-tech-dark;
+  }
+}
+
+.tech-grid-bg {
+    background-size: 50px 50px;
+    background-image: linear-gradient(to right, rgba(31, 41, 55, 0.3) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(31, 41, 55, 0.3) 1px, transparent 1px);
+    mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}

@@ -1,0 +1,51 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "contact": "Contacto",
+        "cta_header": "Conseguir V Clip"
+    },
+    "hero": {
+        "badge": "Innovación óptica para deportes extremos",
+        "title_white": "Mira el límite,",
+        "title_blue": "no tus lentillas",
+        "description": "El inserto óptico definitivo para gafas de Enduro, Motocross y Ski. Visión perfecta sin compromisos, diseñado para quienes no aceptan límites.",
+        "cta_main": "Conseguir V Clip",
+        "cta_sec": "Ver demostración",
+        "scroll_hint": "ROTACIÓN 360º"
+    },
+    "features": {
+        "label": "Características",
+        "title": "Ingeniería de precisión",
+        "subtitle": "Cada detalle diseñado para ofrecerte la mejor experiencia visual en deportes extremos.",
+        "items": {
+            "vision": {
+                "title": "Gran ángulo de visión",
+                "desc": "Diseño panorámico que maximiza tu campo visual sin distorsiones. Ve todo lo que necesitas, cuando lo necesitas."
+            },
+            "antifog": {
+                "title": "Sistema Anti-vaho",
+                "desc": "Tecnología de ventilación avanzada que mantiene tus lentes cristalinas en las condiciones más extremas."
+            },
+            "install": {
+                "title": "Instalación en segundos",
+                "desc": "Sistema de clip patentado que se adapta a cualquier gafa. Sin herramientas, sin complicaciones."
+            },
+            "comfort": {
+                "title": "Comodidad extrema",
+                "desc": "Ultraligero a solo 12g. Olvídate de que lo llevas puesto mientras te concentras en tu rendimiento."
+            }
+        }
+    },
+    "contact": {
+        "label": "Contacto",
+        "title": "¿Listo para el siguiente nivel?",
+        "subtitle": "Contáctanos y descubre cómo V Clip puede transformar tu experiencia en deportes extremos.",
+        "email_label": "Email",
+        "phone_label": "Teléfono",
+        "whatsapp_label": "WhatsApp",
+        "whatsapp_btn": "Chat on WhatsApp",
+        "form_hint": "¿Prefieres que te contactemos nosotros?",
+        "form_btn": "Solicitar información"
+    }
+}
