@@ -1,26 +1,30 @@
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Mesh } from 'three';
-import { Environment, ContactShadows } from '@react-three/drei';
+import * as THREE from 'three';
+import { useGLTF, Environment, ContactShadows } from '@react-three/drei';
 
 const RotatingModel = () => {
-    const meshRef = useRef<Mesh>(null);
+    const meshRef = useRef<THREE.Group>(null);
+    const { scene } = useGLTF('/vclip/models/model.glb');
 
     useFrame((_state) => {
         if (!meshRef.current) return;
         // Simple rotation for now
-        meshRef.current.rotation.y += 0.01;
-        // In future: bind to scroll
+        meshRef.current.rotation.y += 0.005; // Slower rotation for better detail view
     });
 
     return (
-        <mesh ref={meshRef}>
-            <boxGeometry args={[2, 2, 2]} />
-            <meshStandardMaterial color="#00f0ff" wireframe />
-        </mesh>
+        <primitive
+            object={scene}
+            ref={meshRef}
+            scale={3} // Initial scale guess, can be adjusted
+            position={[0, 0, 0]} // Center adjustment
+        />
     );
 };
+
+useGLTF.preload('/vclip/models/model.glb');
 
 const Hero = () => {
     const { t } = useTranslation();
